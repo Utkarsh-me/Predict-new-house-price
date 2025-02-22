@@ -13,7 +13,7 @@ SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJ
 # Initialize Supabase client
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-model = pickle.load(open('house_price.pkl', 'rb'))
+model = pickle.load(open('new_house.pkl', 'rb'))
 
 
 @app.route('/')
